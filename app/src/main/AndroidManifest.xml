@@ -11,17 +11,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".OrganizedAnimation">
+        <activity android:name=".B"></activity>
+        <activity android:name=".A">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AnimationSet">
+        <activity android:name=".OrganizedAnimation">
 
         </activity>
-        <activity android:name=".PlaceHolder"></activity>
+        <activity android:name=".AnimationSet" />
+        <activity android:name=".PlaceHolder" />
         <activity android:name=".ConstraintSet" />
         <activity android:name=".ConstraintLayoutGroup" />
     </application>
